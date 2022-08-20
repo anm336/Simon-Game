@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="simong.css">
+    <title>Simon Game</title>
+  </head>
+  <body>
+    <h1 class="title">Press Enter Key to Start =></h1><br>
+    <div class="boxes">
+      <table>
+        <tr>
+          <td>
+            <button type="button" id="green" class="boxbutton" style="background-color:green" onclick="game()"></button>
+          </td>
+          <td>
+            <button type="button" id="red" class="boxbutton" style="background-color:red" onclick="game()"></button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button type="button" id="yellow" class="boxbutton" style="background-color:yellow" onclick="game()"></button>
+          </td>
+          <td>
+            <button type="button" id="blue" class="boxbutton" style="background-color:blue" onclick="game()"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <h2>Score: <span id = "score">0</span></h2>
+    <script src="simong.js"></script>
+  </body>
+</html>

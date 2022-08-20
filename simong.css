@@ -1,0 +1,46 @@
+body{
+    background-color: blueviolet;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    margin-top: 75px;
+    font-family: Papyrus;
+}
+.boxes{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 10px;
+    height: 500px;
+    border-color: black;
+    background-color: aquamarine;
+    border-radius: 8%;
+}
+
+.boxbutton{
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    height: 200px;
+    width: 335px;
+    cursor: pointer;
+    border: solid black 5px;
+}
+
+button:active{
+    transform: translateY 4px;
+}
+
+.add{
+    box-shadow: 7px 7px 10px grey;
+    transform: translateY(5px);
+    border-width: 10px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    font-family: Papyrus;
+}
